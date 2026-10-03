@@ -1,9 +1,10 @@
 def greet(name):
-    return f"Hello, {name}!"
+    name = name.strip()
+    return f"Welcome, {name}!"
 
 
 def main():
-    print(greet("Ram"))
+    print(greet(" Ram "))
 
 
 if __name__ == "__main__":
